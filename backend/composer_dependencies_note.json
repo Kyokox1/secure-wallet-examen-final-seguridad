@@ -1,0 +1,8 @@
+{
+  "_nota": "Ejecute estos comandos dentro de la carpeta backend/ luego de crear el proyecto Laravel base",
+  "comandos": [
+    "composer require firebase/php-jwt",
+    "composer require pragmarx/google2fa",
+    "composer require laravel/sanctum"
+  ]
+}

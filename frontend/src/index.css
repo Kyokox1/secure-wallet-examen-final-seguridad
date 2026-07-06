@@ -1,0 +1,13 @@
+body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; margin: 0; }
+.auth-page { display: flex; justify-content: center; align-items: center; height: 100vh; }
+.auth-card, .card { background: #1e293b; padding: 2rem; border-radius: 12px; max-width: 480px; margin: 2rem auto; }
+input, select, button { display: block; width: 100%; margin: 0.5rem 0; padding: 0.6rem; border-radius: 6px; border: 1px solid #334155; background: #0f172a; color: #e2e8f0; }
+button { background: #2563eb; color: white; border: none; cursor: pointer; }
+.error { color: #f87171; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { border-bottom: 1px solid #334155; padding: 0.4rem; text-align: left; font-size: 0.9rem; }
+a { color: #60a5fa; }
+.navbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem; }
+.navbar-brand { font-weight: bold; font-size: 1.1rem; }
+.btn-logout { width: auto; margin: 0; padding: 0.4rem 1rem; background: #334155; }
+.btn-logout:hover { background: #ef4444; }
